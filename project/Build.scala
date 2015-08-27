@@ -81,7 +81,7 @@ object SlickPgBuild extends Build {
     )
   )
 
-  val json4sVersion = "3.2.10"
+  val json4sVersion = "3.3.0.RC3"
   lazy val slickPgProject = Project(id = "slick-pg", base = file("."),
     settings = Defaults.coreDefaultSettings ++ commonSettings ++ Seq(
       name := "slick-pg",
